@@ -1,0 +1,11 @@
+[package]
+name = "solana-blockchain"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenv = "0.15"  # For loading environment variables from a .env file
+solana-client = "1.18"  # For interacting with Solana network
+solana-sdk = "1.18"  # For generating and handling keypairs
+sha2 = "0.10"  # For hashing with SHA-256
+rayon = "1.6"  # For parallel iteration
