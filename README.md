@@ -13,3 +13,6 @@ This Rust application provides functionalities for interacting with the Solana b
 - [Rust](https://www.rust-lang.org/tools/install) (version 1.70.0 or later)
 - [Solana CLI](https://docs.solana.com/cli/install-solana-cli-tools) (optional, for interacting with Solana directly)
 - A `.env` file in the project root containing the `PUBLIC_KEY` for checking balance and optionally `SECRET_KEY` for loading a keypair.
+
+## Solana Wallet
+Here's an illustration of a Solana wallet: ![Solana Wallet](images/solana_wallet.jpg)
